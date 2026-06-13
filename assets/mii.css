@@ -410,18 +410,38 @@ small { font-size: .82rem; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
   .fb-1, .fb-2 { display: none; }
 }
+.m-cta { display: none; }
 @media (max-width: 760px) {
   .section { padding: 56px 0; }
-  .nav-links, .nav-cta .btn-ghost { display: none; }
+  .nav { height: 64px; }
+  .nav-links, .nav-cta .btn { display: none; }
   .nav-toggle { display: block; }
   .grid-3, .grid-2, .grid-4, .grid-5 { grid-template-columns: 1fr; }
   .flow { grid-template-columns: 1fr; }
   .field-row { grid-template-columns: 1fr; }
   .cmp { font-size: .82rem; } .cmp th, .cmp td { padding: 11px 10px; }
   .cta-band { padding: 36px 22px; }
-  .mobile-open .nav-links { display: flex; position: absolute; top: 74px; left: 0; right: 0; flex-direction: column; background: #fff; border-bottom: 1px solid var(--line); padding: 14px; gap: 4px; box-shadow: var(--shadow); }
-  .mobile-open .nav-links a.nav-link { width: 100%; }
-  .mobile-open .has-mega .mega { display: none; }
+  .footer-grid { grid-template-columns: 1fr; gap: 26px; }
+  .section-head h2, h1 { word-break: break-word; }
+  /* Mobile dropdown menu */
+  .mobile-open .nav-links {
+    display: flex; position: absolute; top: 100%; left: 0; right: 0;
+    flex-direction: column; align-items: stretch; background: #fff;
+    border-bottom: 1px solid var(--line); padding: 12px; gap: 2px;
+    box-shadow: var(--shadow); max-height: calc(100vh - 64px); overflow-y: auto;
+  }
+  .mobile-open .nav-links > li { width: 100%; }
+  .mobile-open .nav-links a.nav-link { width: 100%; font-size: 1rem; padding: 13px 12px; border-radius: 8px; }
+  .mobile-open .has-mega > .mega {
+    display: grid; position: static; transform: none; opacity: 1; visibility: visible;
+    width: auto; box-shadow: none; border: none; border-radius: 0;
+    padding: 0 0 6px 12px; grid-template-columns: 1fr; gap: 2px;
+  }
+  .mobile-open .has-mega > .mega::before { display: none; }
+  .mobile-open .has-mega > .mega h4 { display: none; }
+  .mobile-open .has-mega > .mega a { padding: 10px 12px; }
+  .mobile-open .m-cta { display: block; margin-top: 8px; }
+  .mobile-open .m-cta .btn { width: 100%; }
 }
 
 /* ---------- IA + colour-balance additions ---------- */
