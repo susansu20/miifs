@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products, Mii Foodservice | Commercial Kitchen Equipment</title>
+<meta name="description" content="Browse 75+ commercial kitchen products from 17 specialist brands. Shop by category, solution or brand, blenders, juicers, ovens, oil management, refrigeration and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/mii.css">
+</head>
+<body>
+
+<div class="topbar">Mii is now a <strong>solution-led kitchen partner</strong>, not just an equipment supplier. <a href="services.html">See how we work →</a></div>
+
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html"><img class="mark-img" src="assets/logo.png" onerror="this.onerror=null;this.src='assets/logo.svg'" alt="Mii Foodservice logo"><span>Mii Foodservice<small>Foodservice Solutions</small></span></a>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="products.html">Products</a></li>
+        <li><a class="nav-link" href="services.html">Services</a></li>
+        <li><a class="nav-link" href="showcase.html">Showcase</a></li>
+        <li class="has-mega"><a class="nav-link" href="#" onclick="return false">Resources <span class="caret">&#9662;</span></a>
+          <div class="mega mega--sm"><h4>Resources</h4>
+            <a href="download-center.html"><span class="ic"><svg class="ic-svg"><use href="#i-doc"></use></svg></span><span><span class="tt">Download Center</span><span class="ds">Product spec PDFs, demo videos &amp; social channels</span></span></a>
+            <a href="blog.html"><span class="ic"><svg class="ic-svg"><use href="#i-folder"></use></svg></span><span><span class="tt">Blog</span><span class="ds">Insights, recipes &amp; use-case articles</span></span></a>
+          </div></li>
+        <li><a class="nav-link" href="about.html">About Us</a></li>
+        <li><a class="nav-link" href="collaborator.html">Collaborators</a></li>
+      </ul>
+      <div class="nav-spacer"></div>
+      <div class="nav-cta">
+        <a class="cart-link" href="cart.html" aria-label="Request-for-quote cart"><svg class="ic-svg"><use href="#i-cart"></use></svg><span class="cart-badge" data-cart-count style="display:none">0</span></a>
+        <a class="btn btn-green" href="contact.html">Book a consultation</a>
+      </div>
+      <button class="nav-toggle" data-nav-toggle aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="bg-soft" style="padding:14px 0 48px">
+  <div class="container">
+    <div class="crumb"><a href="index.html">Home</a><span class="sep">/</span><span>Products</span></div>
+    <div style="max-width:680px">
+      <span class="eyebrow">The catalogue</span>
+      <h1 style="font-size:clamp(2rem,4vw,3rem)">Equipment chosen to make your kitchen run better</h1>
+      <h2 class="hero-sub">One catalogue. Five categories. Seventeen specialist brands.</h2>
+      <p class="lede">75+ commercial products to browse by category or brand. Not sure what fits? Tell us your setup and we'll recommend the right line.</p>
+      <a class="btn btn-primary arrow" href="contact.html">Book a consultation</a>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP: sidebar filters + product grid (WooCommerce-style) -->
+<section class="section">
+  <div class="container">
+    <div class="shop-layout">
+
+      <!-- LEFT SIDEBAR FILTERS -->
+      <aside class="shop-sidebar">
+        <div class="filter-group">
+          <h4>Category</h4>
+          <ul class="filter-check">
+            <li><label><input type="checkbox" data-group="cat" value="beverage"> Beverage &amp; Coffee <span class="cnt">6</span></label></li>
+            <li><label><input type="checkbox" data-group="cat" value="prep"> Food Preparation <span class="cnt">4</span></label></li>
+            <li><label><input type="checkbox" data-group="cat" value="cooking"> Cooking &amp; Ovens <span class="cnt">3</span></label></li>
+            <li><label><input type="checkbox" data-group="cat" value="oil"> Oil Management <span class="cnt">3</span></label></li>
+            <li><label><input type="checkbox" data-group="cat" value="refrigeration"> Refrigeration &amp; Storage <span class="cnt">2</span></label></li>
+          </ul>
+        </div>
+        <div class="filter-group">
+          <h4>Brand</h4>
+          <ul class="filter-check" id="brand-filters">
+            <li><label><input type="checkbox" data-group="brand" value="vitamix"> Vitamix</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="zumex"> Zumex</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="bunn"> BUNN</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="astra"> Astra</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="elmeco"> Elmeco</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="lehehe"> Lehehe</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="hallde"> Hallde</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="dynamic"> Dynamic</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="peelmaster"> Peelmaster</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="merrychef"> Merrychef</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="menumaster"> Menumaster</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="antunes"> Antunes</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="frontline"> Frontline</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="frylow"> Frylow</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="abl"> ABL</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="sunice"> SUNICE</label></li>
+            <li><label><input type="checkbox" data-group="brand" value="nice"> NICE</label></li>
+          </ul>
+          <button class="show-more" type="button" data-showmore="brand-filters">Show more</button>
+        </div>
+        <div class="filter-group" style="background:var(--purple-soft);border-color:transparent">
+          <h4 style="color:var(--purple)">Need help choosing?</h4>
+          <p style="font-size:.88rem;color:var(--ink-2);margin:0 0 14px">Tell us your setup and we&rsquo;ll recommend the right line.</p>
+          <a class="btn btn-green btn-block" href="contact.html">Book a consultation</a>
+        </div>
+      </aside>
+
+      <!-- RIGHT: toolbar + grid -->
+      <div class="shop-main">
+        <div class="shop-toolbar">
+          <span class="count">Showing all <strong data-result-count>17</strong> products</span>
+          <select aria-label="Sort products">
+            <option>Sort by: Featured</option>
+            <option>Name (A–Z)</option>
+            <option>Brand (A–Z)</option>
+            <option>Recently added</option>
+          </select>
+        </div>
+        <div class="shop-grid">
+
+      <!-- Beverage -->
+      <div class="card prod-card reveal" data-cat="beverage vitamix">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Blenders</span><h3><a href="product.html">Vitamix Commercial Blender</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Vitamix Commercial Blender" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="beverage prep zumex">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Juicers</span><h3><a href="product.html">Zumex Automatic Juicer</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Zumex Automatic Juicer" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="beverage bunn">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Coffee &amp; Tea</span><h3><a href="product.html">BUNN Coffee &amp; Tea Brewer</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="BUNN Coffee &amp; Tea Brewer" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="beverage astra">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Espresso</span><h3><a href="product.html">Astra Espresso Machine</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Astra Espresso Machine" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="beverage elmeco">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Frozen Drinks</span><h3><a href="product.html">Elmeco Slush &amp; Cream Machine</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Elmeco Slush &amp; Cream Machine" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="beverage lehehe">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Tea &amp; Milk</span><h3><a href="product.html">Lehehe Intelligent Tea Machine</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Lehehe Intelligent Tea Machine" data-img="">Add to Quote</button></div></div>
+      </div>
+
+      <!-- Food Prep -->
+      <div class="card prod-card reveal" data-cat="prep hallde">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Vegetable Prep</span><h3><a href="product.html">Hallde Vegetable Preparation Machine</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Hallde Vegetable Preparation Machine" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="prep dynamic">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Mixers</span><h3><a href="product.html">Dynamic Immersion Blender / Mixer</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Dynamic Immersion Blender / Mixer" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="prep peelmaster">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Peelers</span><h3><a href="product.html">Peelmaster Potato Peeler</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Peelmaster Potato Peeler" data-img="">Add to Quote</button></div></div>
+      </div>
+
+      <!-- Cooking -->
+      <div class="card prod-card reveal" data-cat="cooking merrychef">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Accelerated Ovens</span><h3><a href="product.html">Merrychef conneX 12</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Merrychef conneX 12" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="cooking menumaster">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Microwaves</span><h3><a href="product.html">Menumaster Commercial Microwave</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Menumaster Commercial Microwave" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="cooking antunes">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Toasting &amp; Warming</span><h3><a href="product.html">Antunes Vertical Contact Toaster</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Antunes Vertical Contact Toaster" data-img="">Add to Quote</button></div></div>
+      </div>
+
+      <!-- Oil -->
+      <div class="card prod-card reveal" data-cat="oil frontline">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Used-Oil Systems</span><h3><a href="product.html">Frontline Used Oil Management</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Frontline Used Oil Management" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="oil frylow">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Oil Conditioning</span><h3><a href="product.html">Frylow Oil-Saving System</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="Frylow Oil-Saving System" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="oil abl">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Filtration</span><h3><a href="product.html">ABL Oil Filtration System</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="ABL Oil Filtration System" data-img="">Add to Quote</button></div></div>
+      </div>
+
+      <!-- Refrigeration -->
+      <div class="card prod-card reveal" data-cat="refrigeration sunice">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Ice Machines</span><h3><a href="product.html">SUNICE Commercial Ice Machine</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="SUNICE Commercial Ice Machine" data-img="">Add to Quote</button></div></div>
+      </div>
+      <div class="card prod-card reveal" data-cat="refrigeration nice">
+        <a class="ph" href="product.html">Product image</a>
+        <div class="body"><span class="cat">Dispensing &amp; Chilling</span><h3><a href="product.html">NICE Beverage Dispenser</a></h3>
+          <div class="qty-add"><input type="number" class="qty-input" min="1" value="1" aria-label="Quantity"><button class="btn btn-green add-quote" data-add-rfq="NICE Beverage Dispenser" data-img="">Add to Quote</button></div></div>
+      </div>
+
+      <!-- CTA card -->
+      <a class="card prod-card reveal" href="contact.html" data-cat="beverage prep cooking oil refrigeration" style="background:var(--plum-soft);border-color:transparent">
+        <div class="body" style="justify-content:center;align-items:flex-start;gap:10px">
+          <span class="cat" style="color:var(--plum)">Can't find it?</span>
+          <h3>Tell us what you need</h3>
+          <span class="spec">We carry more than what's listed, and we customise. Send us your requirement.</span>
+          <span class="more arrow" style="margin-top:auto">Request a quote</span>
+        </div>
+      </a>
+        </div><!-- /shop-grid -->
+      </div><!-- /shop-main -->
+    </div><!-- /shop-layout -->
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="section">
+  <div class="container">
+    <div class="cta-band reveal">
+      <span class="eyebrow" style="color:#fff">Not sure where to start?</span>
+      <h2>Tell us your setup, we'll point you to the right equipment</h2>
+      <p>Share your business type, menu and volumes. We'll recommend a line that fits and send a quote.</p>
+      <a class="btn btn-green btn-lg arrow" href="contact.html">Book a consultation</a>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img class="mark-img" src="assets/logo.png" onerror="this.onerror=null;this.src='assets/logo.svg'" alt="Mii Foodservice logo"><span style="color:#fff">Mii Foodservice<small>Foodservice Solutions</small></span></a>
+        <p class="desc">Your commercial kitchen solutions partner, advising, supplying and supporting F&amp;B operators across Singapore &amp; Malaysia since 2015.</p>
+        <div class="social"><a href="https://www.facebook.com/miifoodservice" aria-label="Facebook"><svg class="ic-svg"><use href="#i-facebook"></use></svg></a><a href="https://www.instagram.com/miifoodservice/" aria-label="Instagram"><svg class="ic-svg"><use href="#i-instagram"></use></svg></a><a href="https://www.youtube.com/c/miifoodserviceFoodService" aria-label="YouTube"><svg class="ic-svg"><use href="#i-youtube"></use></svg></a></div>
+      </div>
+      <div><h5>Products</h5><a href="products.html">Beverage &amp; Coffee</a><a href="products.html">Food Preparation</a><a href="products.html">Cooking &amp; Ovens</a><a href="products.html">Oil Management</a><a href="products.html">Refrigeration &amp; Storage</a></div>
+      <div><h5>Company</h5><a href="services.html">Services</a><a href="showcase.html">Showcase</a><a href="download-center.html">Download Center</a><a href="blog.html">Blog</a><a href="about.html">About Us</a><a href="collaborator.html">Collaborators</a><a href="contact.html">Contact</a></div>
+      <div><h5>Get in touch</h5><a href="contact.html">Book a consultation</a><a href="https://wa.me/6580237039">WhatsApp us</a><a href="mailto:sales@miifoodservice.com">sales@miifoodservice.com</a><a href="contact.html">25 Bukit Batok Crescent, S(658066)</a></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Mii FoodService Pte Ltd (201528150G). All rights reserved.</span><span>Website by Hub Solutions One &middot; HSQ2026-0370</span></div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/6580237039" aria-label="WhatsApp"><svg class="ic-svg"><use href="#i-wa"></use></svg></a>
+<script src="assets/mii.js"></script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mii Foodservice, Your Commercial Kitchen Solutions Partner</title>
+<meta name="description" content="Mii Foodservice helps F&B businesses run more efficient kitchens, advising on the right setup, supplying world-class equipment, and keeping it running. Singapore & Malaysia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/mii.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  Mii is now a <strong>solution-led kitchen partner</strong>, not just an equipment supplier. <a href="services.html">See how we work →</a>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <img class="mark-img" src="assets/logo.png" onerror="this.onerror=null;this.src='assets/logo.svg'" alt="Mii Foodservice logo">
+        <span>Mii Foodservice<small>Foodservice Solutions</small></span>
+      </a>
+      <ul class="nav-links">
+        <li class="has-mega">
+          <a class="nav-link" href="products.html">Products <span class="caret">▾</span></a>
+          <div class="mega">
+            <h4>Shop by category</h4>
+            <a href="products.html"><span class="ic"><svg class="ic-svg"><use href="#i-cup"></use></svg></span><span><span class="tt">Beverage &amp; Coffee</span><span class="ds">Blenders, juicers, coffee &amp; tea brewers</span></span></a>
+            <a href="products.html"><span class="ic"><svg class="ic-svg"><use href="#i-knife"></use></svg></span><span><span class="tt">Food Preparation</span><span class="ds">Cutters, peelers, mixers, shakers</span></span></a>
+            <a href="products.html"><span class="ic"><svg class="ic-svg"><use href="#i-flame"></use></svg></span><span><span class="tt">Cooking &amp; Ovens</span><span class="ds">Microwaves, accelerated &amp; specialty ovens</span></span></a>
+            <a href="products.html"><span class="ic"><svg class="ic-svg"><use href="#i-droplet"></use></svg></span><span><span class="tt">Oil Management</span><span class="ds">Filtration, used-oil &amp; Frylow systems</span></span></a>
+            <a href="products.html"><span class="ic"><svg class="ic-svg"><use href="#i-snow"></use></svg></span><span><span class="tt">Refrigeration &amp; Storage</span><span class="ds">Ice machines, chillers, dispensers</span></span></a>
+            <a href="products.html"><span class="ic"><svg class="ic-svg"><use href="#i-tag"></use></svg></span><span><span class="tt">Shop by Brand</span><span class="ds">17 partner brands, A–Z</span></span></a>
+          </div>
+        </li>
+        <li class="has-mega">
+          <a class="nav-link" href="services.html">Services <span class="caret">▾</span></a>
+          <div class="mega">
+            <h4>How we help</h4>
+            <a href="service.html"><span class="ic"><svg class="ic-svg"><use href="#i-ruler"></use></svg></span><span><span class="tt">Kitchen Design &amp; Consultancy</span><span class="ds">Plan an efficient kitchen from day one</span></span></a>
+            <a href="services.html"><span class="ic"><svg class="ic-svg"><use href="#i-folder"></use></svg></span><span><span class="tt">Project Management</span><span class="ds">Sourcing, delivery &amp; installation</span></span></a>
+            <a href="services.html"><span class="ic"><svg class="ic-svg"><use href="#i-wrench"></use></svg></span><span><span class="tt">Super Support</span><span class="ds">Maintenance &amp; servicing retainer</span></span></a>
+            <a href="services.html"><span class="ic"><svg class="ic-svg"><use href="#i-gear"></use></svg></span><span><span class="tt">Equipment Customisation</span><span class="ds">Machines tuned to your menu</span></span></a>
+          </div>
+        </li>
+        <li><a class="nav-link" href="#solutions">Solutions</a></li>
+        <li><a class="nav-link" href="#showcase">Showcase</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+      </ul>
+      <div class="nav-spacer"></div>
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="contact.html">Talk to us</a>
+        <a class="btn btn-primary" href="contact.html">Request a Quote</a>
+      </div>
+      <button class="nav-toggle" data-nav-toggle aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Singapore &amp; Malaysia · Since 20XX</span>
+        <h1>Run a <span class="hl">sharper kitchen.</span><br>Grow a stronger business.</h1>
+        <p class="lede">We help F&amp;B operators build kitchens that work harder, advising on the right setup first, then supplying and maintaining world-class equipment that lifts efficiency and output.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg arrow" href="contact.html">Request a Quote</a>
+          <a class="btn btn-ghost btn-lg" href="services.html">How we work</a>
+        </div>
+        <div class="hero-rating">
+          <span class="stars">★★★★★</span>
+          <span>Trusted by <strong>100+ F&amp;B operators</strong> across cafés, hotels &amp; QSR chains*</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="ratio">Hero equipment / kitchen photo</div>
+        </div>
+        <div class="float-badge fb-1"><span class="n">17</span><span class="t">world-class<br>partner brands</span></div>
+        <div class="float-badge fb-2"><span class="n">75+</span><span class="t">commercial<br>products</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOGO STRIP -->
+<section class="section--tight" style="border-bottom:1px solid var(--line)">
+  <div class="container">
+    <p class="center muted" style="font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin-bottom:22px">Official distributor for leading kitchen brands</p>
+    <div class="logos">
+      <span class="logo">VITAMIX</span><span class="logo">ZUMEX</span><span class="logo">BUNN</span>
+      <span class="logo">MERRYCHEF</span><span class="logo">MENUMASTER</span><span class="logo">ELMECO</span>
+      <span class="logo">HALLDE</span><span class="logo">ASTRA</span><span class="logo">ANTUNES</span>
+    </div>
+  </div>
+</section>
+
+<!-- SHORT INTRO -->
+<section class="section bg-soft">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Not just equipment</span>
+      <h2>The right kitchen setup is a business decision, so we start there</h2>
+      <p>Most suppliers lead with a product list. We lead with your operation. We look at how your kitchen runs, where the bottlenecks are, and then recommend the equipment, layout and support that move the numbers that matter to you.</p>
+    </div>
+    <div class="grid grid-4">
+      <div class="card reveal">
+        <div class="ic-badge"><svg class="ic-svg"><use href="#i-bolt"></use></svg></div>
+        <h3>Efficiency first</h3>
+        <p>Faster prep, less downtime, better throughput. The right machines, set up the right way, so every shift runs leaner.</p>
+        <a class="more arrow" href="services.html">How we plan</a>
+      </div>
+      <div class="card reveal">
+        <div class="ic-badge green"><svg class="ic-svg"><use href="#i-layers"></use></svg></div>
+        <h3>Wider product choice</h3>
+        <p>17 specialist brands and 75+ products, beverage, prep, cooking, oil management and refrigeration under one partner.</p>
+        <a class="more arrow" href="products.html">Browse products</a>
+      </div>
+      <div class="card reveal">
+        <div class="ic-badge"><svg class="ic-svg"><use href="#i-link"></use></svg></div>
+        <h3>Supply optimisation</h3>
+        <p>We customise and tune machines to your menu and volumes, and bring in partner suppliers to complete the solution.</p>
+        <a class="more arrow" href="services.html">Customisation</a>
+      </div>
+      <div class="card reveal">
+        <div class="ic-badge green"><svg class="ic-svg"><use href="#i-wrench"></use></svg></div>
+        <h3>Maintenance &amp; support</h3>
+        <p>Super Support keeps your equipment running with servicing and parts, protecting the uptime your revenue depends on.</p>
+        <a class="more arrow" href="services.html">Super Support</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES OVERVIEW / FLOW -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">How we work</span>
+      <h2>One partner, from first plan to long-term support</h2>
+      <p>A clear path from understanding your business to keeping your kitchen running, no hand-offs, no guesswork.</p>
+    </div>
+    <div class="flow reveal">
+      <div class="step"><div class="num">1</div><h4>Consultancy</h4><p>Understand your menu, volumes &amp; goals</p></div>
+      <div class="step"><div class="num">2</div><h4>Planning</h4><p>Layout &amp; equipment plan for efficiency</p></div>
+      <div class="step"><div class="num">3</div><h4>Sourcing</h4><p>Right machines, tuned to your needs</p></div>
+      <div class="step"><div class="num">4</div><h4>Installation</h4><p>Delivered, fitted &amp; commissioned</p></div>
+      <div class="step"><div class="num">5</div><h4>Optimisation</h4><p>Dialled in for real-world output</p></div>
+      <div class="step retainer"><div class="num"><svg class="ic-svg"><use href="#i-cycle"></use></svg></div><h4>Maintenance</h4><p>Ongoing Super Support retainer</p></div>
+    </div>
+    <div class="center" style="margin-top:34px">
+      <a class="btn btn-primary arrow" href="services.html">Explore our services</a>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP BY CATEGORY -->
+<section class="section bg-soft" id="products">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Shop by category</span>
+      <h2>Equipment for every station in a commercial kitchen</h2>
+    </div>
+    <div class="grid grid-3">
+      <a class="card cat-card reveal" href="products.html">
+        <div class="thumb">Beverage &amp; Coffee</div>
+        <div class="body"><h3>Beverage &amp; Coffee</h3><p>Blenders, juicers, coffee &amp; tea systems for high-volume bars.</p>
+        <div class="tags"><span>Vitamix</span><span>Zumex</span><span>BUNN</span><span>Astra</span><span>Elmeco</span></div></div>
+      </a>
+      <a class="card cat-card reveal" href="products.html">
+        <div class="thumb">Food Preparation</div>
+        <div class="body"><h3>Food Preparation</h3><p>Cutters, peelers, mixers and shakers that cut prep time.</p>
+        <div class="tags"><span>Hallde</span><span>Dynamic</span><span>Peelmaster</span><span>Lehehe</span></div></div>
+      </a>
+      <a class="card cat-card reveal" href="products.html">
+        <div class="thumb">Cooking &amp; Ovens</div>
+        <div class="body"><h3>Cooking &amp; Ovens</h3><p>Accelerated, microwave and specialty ovens for fast service.</p>
+        <div class="tags"><span>Merrychef</span><span>Menumaster</span><span>Antunes</span></div></div>
+      </a>
+      <a class="card cat-card reveal" href="products.html">
+        <div class="thumb">Oil Management</div>
+        <div class="body"><h3>Oil Management</h3><p>Filtration and used-oil systems that cut oil cost &amp; waste.</p>
+        <div class="tags"><span>Frontline</span><span>Frylow</span><span>ABL</span></div></div>
+      </a>
+      <a class="card cat-card reveal" href="products.html">
+        <div class="thumb">Refrigeration &amp; Storage</div>
+        <div class="body"><h3>Refrigeration &amp; Storage</h3><p>Ice machines, chillers and dispensers built for volume.</p>
+        <div class="tags"><span>SUNICE</span><span>NICE</span></div></div>
+      </a>
+      <a class="card cat-card reveal" href="products.html" style="background:var(--plum);color:#fff;border-color:var(--plum)">
+        <div class="body" style="display:flex;flex-direction:column;justify-content:center;height:100%">
+          <h3 style="color:#fff">See all 75+ products</h3>
+          <p style="color:rgba(255,255,255,.85)">Filter by category, solution or brand to find the right fit.</p>
+          <span class="more arrow" style="color:#fff">Browse the catalogue</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUTIONS BY AUDIENCE -->
+<section class="section" id="solutions">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Shop by solution</span>
+      <h2>Built around how your business actually operates</h2>
+      <p>Whatever you run, we shape the setup around your service style, volume and space.</p>
+    </div>
+    <div class="grid grid-4">
+      <div class="card reveal"><div class="ic-badge"><svg class="ic-svg"><use href="#i-cup"></use></svg></div><h3>Café &amp; Juice Bar</h3><p>High-throughput beverage stations that keep queues moving.</p><a class="more arrow" href="products.html">Explore</a></div>
+      <div class="card reveal"><div class="ic-badge"><svg class="ic-svg"><use href="#i-utensils"></use></svg></div><h3>Hotel &amp; Fine Dining</h3><p>Precision equipment for consistent, premium plating.</p><a class="more arrow" href="products.html">Explore</a></div>
+      <div class="card reveal"><div class="ic-badge"><svg class="ic-svg"><use href="#i-bag"></use></svg></div><h3>Chain &amp; QSR</h3><p>Speed and reliability standardised across every outlet.</p><a class="more arrow" href="products.html">Explore</a></div>
+      <div class="card reveal"><div class="ic-badge"><svg class="ic-svg"><use href="#i-building"></use></svg></div><h3>Institutional &amp; Catering</h3><p>Robust, high-capacity kitchens for hospitals &amp; canteens.</p><a class="more arrow" href="products.html">Explore</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY MII / COMPARISON -->
+<section class="section bg-soft" id="why">
+  <div class="container">
+    <div class="split">
+      <div class="reveal">
+        <span class="eyebrow">Why Mii</span>
+        <h2>A partner who optimises your kitchen, not just fills it</h2>
+        <p>Many suppliers stop at delivery. We stay involved, because efficient kitchens are built over time, not in a single invoice.</p>
+        <ul class="checklist">
+          <li>Solution-led advice before any equipment is quoted</li>
+          <li>Machines customised and tuned to your menu &amp; volumes</li>
+          <li>One accountable partner from planning through maintenance</li>
+          <li>17 specialist brands, so the recommendation fits the job</li>
+        </ul>
+        <a class="btn btn-primary arrow" href="services.html">See how we work</a>
+      </div>
+      <div class="reveal">
+        <table class="cmp">
+          <thead><tr><th>What you get</th><th class="mii">Mii Foodservice</th><th style="text-align:center">Typical supplier</th></tr></thead>
+          <tbody>
+            <tr><td>Kitchen consultancy &amp; planning</td><td class="mii-col"><span class="yes">✓</span></td><td class="c"><span class="no">✕</span></td></tr>
+            <tr><td>Equipment tuned to your menu</td><td class="mii-col"><span class="yes">✓</span></td><td class="c">Limited</td></tr>
+            <tr><td>Single partner, many brands</td><td class="mii-col"><span class="yes">✓</span></td><td class="c"><span class="no">✕</span></td></tr>
+            <tr><td>Ongoing maintenance retainer</td><td class="mii-col"><span class="yes">✓</span></td><td class="c">Ad-hoc</td></tr>
+            <tr><td>Focus</td><td class="mii-col">Your efficiency</td><td class="c">Their sale</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAND -->
+<section class="section bg-plum">
+  <div class="container">
+    <div class="stats">
+      <div class="stat reveal"><div class="n">20+</div><div class="l">Years serving F&amp;B*</div></div>
+      <div class="stat reveal"><div class="n">17</div><div class="l">World-class brands</div></div>
+      <div class="stat reveal"><div class="n">100+</div><div class="l">F&amp;B clients served*</div></div>
+      <div class="stat reveal"><div class="n">75+</div><div class="l">Commercial products</div></div>
+    </div>
+    <p class="center" style="color:rgba(255,255,255,.6);font-size:.8rem;margin:26px 0 0">*Placeholder proof points, to be confirmed with William before launch.</p>
+  </div>
+</section>
+
+<!-- SHOWCASE / SOCIAL PROOF -->
+<section class="section" id="showcase">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Showcase</span>
+      <h2>Operators who run better with Mii</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="quote-card reveal">
+        <div class="qm">“</div>
+        <blockquote>They planned our juice-bar line so two staff now do what used to take four. The advice mattered more than the machines.</blockquote>
+        <div class="who"><span class="av">JL</span><span><span class="nm">Operations Lead</span><span class="rl" style="display:block">Regional Juice Bar Chain</span></span></div>
+      </div>
+      <div class="quote-card reveal">
+        <div class="qm">“</div>
+        <blockquote>Mii tuned the ovens to our exact menu and trained the team. Speed of service went up without adding headcount.</blockquote>
+        <div class="who"><span class="av">SK</span><span><span class="nm">Group Chef</span><span class="rl" style="display:block">Hotel F&amp;B Group</span></span></div>
+      </div>
+      <div class="quote-card reveal">
+        <div class="qm">“</div>
+        <blockquote>The Super Support retainer means we don't lose a service period to breakdowns anymore. That's real money saved.</blockquote>
+        <div class="who"><span class="av">MR</span><span><span class="nm">Franchise Owner</span><span class="rl" style="display:block">QSR Group</span></span></div>
+      </div>
+    </div>
+    <p class="center muted" style="font-size:.82rem;margin-top:22px">Illustrative testimonials, replace with verified client quotes &amp; logos before launch.</p>
+  </div>
+</section>
+
+<!-- TRUST BADGES -->
+<section class="section bg-soft" id="about">
+  <div class="container">
+    <div class="trust-row">
+      <div class="trust-item reveal"><div class="ic"><svg class="ic-svg"><use href="#i-award"></use></svg></div><h4>Authorised distributor</h4><p>Official partner for 17 leading global kitchen brands.</p></div>
+      <div class="trust-item reveal"><div class="ic"><svg class="ic-svg"><use href="#i-ruler"></use></svg></div><h4>Consultative approach</h4><p>We plan for efficiency before we quote equipment.</p></div>
+      <div class="trust-item reveal"><div class="ic"><svg class="ic-svg"><use href="#i-gear"></use></svg></div><h4>Customised &amp; tuned</h4><p>Machines adapted to your menu, space and volume.</p></div>
+      <div class="trust-item reveal"><div class="ic"><svg class="ic-svg"><use href="#i-wrench"></use></svg></div><h4>Long-term support</h4><p>Maintenance &amp; servicing that protects your uptime.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="section">
+  <div class="container">
+    <div class="cta-band reveal">
+      <span class="eyebrow" style="color:#fff">Let's talk</span>
+      <h2>Tell us about your kitchen, we'll show you a better setup</h2>
+      <p>Share your business type and what you're trying to improve. We'll come back with a tailored recommendation and quote.</p>
+      <a class="btn btn-green btn-lg arrow" href="contact.html">Request a Quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img class="mark-img" src="assets/logo.png" onerror="this.onerror=null;this.src='assets/logo.svg'" alt="Mii Foodservice logo"><span style="color:#fff">Mii Foodservice<small>Foodservice Solutions</small></span></a>
+        <p class="desc">Your commercial kitchen solutions partner, advising, supplying and supporting F&amp;B operators across Singapore &amp; Malaysia.</p>
+        <div class="social"><a href="#" aria-label="LinkedIn"><svg class="ic-svg"><use href="#i-linkedin"></use></svg></a><a href="#" aria-label="Facebook"><svg class="ic-svg"><use href="#i-facebook"></use></svg></a><a href="#" aria-label="Instagram"><svg class="ic-svg"><use href="#i-instagram"></use></svg></a><a href="#" aria-label="YouTube"><svg class="ic-svg"><use href="#i-youtube"></use></svg></a></div>
+      </div>
+      <div>
+        <h5>Products</h5>
+        <a href="products.html">Beverage &amp; Coffee</a><a href="products.html">Food Preparation</a><a href="products.html">Cooking &amp; Ovens</a><a href="products.html">Oil Management</a><a href="products.html">Refrigeration &amp; Storage</a>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="services.html">Services</a><a href="#showcase">Showcase</a><a href="#about">About Us</a><a href="#">Collaborators</a><a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h5>Get in touch</h5>
+        <a href="contact.html">Request a Quote</a><a href="#">WhatsApp us</a><a href="mailto:enquiry@miifoodservice.com">enquiry@miifoodservice.com</a><a href="#">Showroom, Singapore</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Mii Foodservice Pte Ltd. All rights reserved.</span>
+      <span>Website by Hub Solutions One · HSQ2026-0370</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="#" aria-label="WhatsApp"><svg class="ic-svg"><use href="#i-wa"></use></svg></a>
+<script src="assets/mii.js"></script>
+</body>
+</html>

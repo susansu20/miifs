@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your RFQ List | Mii Foodservice</title>
+<meta name="description" content="Review the products in your request-for-quote list and submit them to Mii Foodservice. No payment, we reply with a tailored quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/mii.css">
+</head>
+<body>
+
+<div class="topbar">No payment online. Add products, then submit your <strong>request for quote</strong>. <a href="products.html">Browse products &rarr;</a></div>
+
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html"><img class="mark-img" src="assets/logo.png" onerror="this.onerror=null;this.src='assets/logo.svg'" alt="Mii Foodservice logo"><span>Mii Foodservice<small>Foodservice Solutions</small></span></a>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="products.html">Products</a></li>
+        <li><a class="nav-link" href="services.html">Services</a></li>
+        <li><a class="nav-link" href="showcase.html">Showcase</a></li>
+        <li class="has-mega"><a class="nav-link" href="#" onclick="return false">Resources <span class="caret">&#9662;</span></a>
+          <div class="mega mega--sm"><h4>Resources</h4>
+            <a href="download-center.html"><span class="ic"><svg class="ic-svg"><use href="#i-doc"></use></svg></span><span><span class="tt">Download Center</span><span class="ds">Product spec PDFs, demo videos &amp; social channels</span></span></a>
+            <a href="blog.html"><span class="ic"><svg class="ic-svg"><use href="#i-folder"></use></svg></span><span><span class="tt">Blog</span><span class="ds">Insights, recipes &amp; use-case articles</span></span></a>
+          </div></li>
+        <li><a class="nav-link" href="about.html">About Us</a></li>
+        <li><a class="nav-link" href="collaborator.html">Collaborators</a></li>
+      </ul>
+      <div class="nav-spacer"></div>
+      <div class="nav-cta">
+        <a class="cart-link" href="cart.html" aria-label="Request-for-quote cart"><svg class="ic-svg"><use href="#i-cart"></use></svg><span class="cart-badge" data-cart-count style="display:none">0</span></a>
+        <a class="btn btn-green" href="contact.html">Book a consultation</a>
+      </div>
+      <button class="nav-toggle" data-nav-toggle aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</header>
+
+<section style="padding:24px 0 8px">
+  <div class="container">
+    <div class="crumb"><a href="index.html">Home</a><span class="sep">/</span><span>Quote List</span></div>
+  </div>
+</section>
+
+<!-- QUOTE LIST TABLE -->
+<section style="padding:8px 0 24px">
+  <div class="container" style="max-width:900px">
+    <h1 style="margin-bottom:24px">Quote List</h1>
+    <div data-cart-list></div>
+  </div>
+</section>
+
+<!-- FILL YOUR DETAILS -->
+<section class="section" style="padding-top:24px">
+  <div class="container" style="max-width:720px">
+    <h2 class="center" style="margin-bottom:32px">Fill Your Details</h2>
+    <form class="form-card" onsubmit="event.preventDefault();localStorage.removeItem('miiRFQ');this.style.display='none';document.getElementById('rfq-thanks').style.display='block';">
+      <div class="field"><label>Name <span class="req" style="color:var(--purple)">*</span></label><input type="text" required placeholder="Your name"></div>
+      <div class="field"><label>Company <span class="req" style="color:var(--purple)">*</span></label><input type="text" required placeholder="Business name"></div>
+      <div class="field"><label>Email <span class="req" style="color:var(--purple)">*</span></label><input type="email" required placeholder="you@company.com"></div>
+      <div class="field"><label>Phone / WhatsApp</label><input type="tel" placeholder="+65 ..."></div>
+      <div class="field-row">
+        <div class="field"><label>Operating country <span class="req" style="color:var(--purple)">*</span></label>
+          <select required><option value="">Select...</option><option>Singapore</option><option>Malaysia (West)</option><option>Malaysia (East)</option><option>Other</option></select></div>
+        <div class="field"><label>When do you need the kitchen ready?</label>
+          <select><option value="">Select a timeline...</option><option>As soon as possible</option><option>Within 1 month</option><option>1&ndash;3 months</option><option>3&ndash;6 months</option><option>6+ months / planning ahead</option><option>Just exploring</option></select></div>
+      </div>
+      <div class="field"><label>Notes (questions, special requirements)</label><textarea placeholder="e.g. needed before our opening on 15 Aug"></textarea></div>
+      <button type="submit" class="btn btn-green btn-block btn-lg">Submit Request for Quote</button>
+      <p class="muted" style="font-size:.78rem;text-align:center;margin:14px 0 0">No payment is taken. This sends your quote list and details to our team.</p>
+    </form>
+    <div id="rfq-thanks" class="form-card center" style="display:none">
+      <div class="ic-badge green" style="margin:0 auto 16px;width:60px;height:60px"><svg class="ic-svg"><use href="#i-award"></use></svg></div>
+      <h3>Request sent</h3>
+      <p class="muted">Thanks! Our team will reply with a quote within one working day.</p>
+      <a class="btn btn-ghost" href="products.html">Keep browsing</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img class="mark-img" src="assets/logo.png" onerror="this.onerror=null;this.src='assets/logo.svg'" alt="Mii Foodservice logo"><span style="color:#fff">Mii Foodservice<small>Foodservice Solutions</small></span></a>
+        <p class="desc">Your commercial kitchen solutions partner, advising, supplying and supporting F&amp;B operators across Singapore &amp; Malaysia since 2015.</p>
+        <div class="social"><a href="https://www.facebook.com/miifoodservice" aria-label="Facebook"><svg class="ic-svg"><use href="#i-facebook"></use></svg></a><a href="https://www.instagram.com/miifoodservice/" aria-label="Instagram"><svg class="ic-svg"><use href="#i-instagram"></use></svg></a><a href="https://www.youtube.com/c/miifoodserviceFoodService" aria-label="YouTube"><svg class="ic-svg"><use href="#i-youtube"></use></svg></a></div>
+      </div>
+      <div><h5>Products</h5><a href="products.html">Beverage &amp; Coffee</a><a href="products.html">Food Preparation</a><a href="products.html">Cooking &amp; Ovens</a><a href="products.html">Oil Management</a><a href="products.html">Refrigeration &amp; Storage</a></div>
+      <div><h5>Company</h5><a href="services.html">Services</a><a href="showcase.html">Showcase</a><a href="download-center.html">Download Center</a><a href="blog.html">Blog</a><a href="about.html">About Us</a><a href="collaborator.html">Collaborators</a><a href="contact.html">Contact</a></div>
+      <div><h5>Get in touch</h5><a href="contact.html">Book a consultation</a><a href="https://wa.me/6580237039">WhatsApp us</a><a href="mailto:sales@miifoodservice.com">sales@miifoodservice.com</a><a href="contact.html">25 Bukit Batok Crescent, S(658066)</a></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 Mii FoodService Pte Ltd (201528150G). All rights reserved.</span><span>Website by Hub Solutions One &middot; HSQ2026-0370</span></div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/6580237039" aria-label="WhatsApp"><svg class="ic-svg"><use href="#i-wa"></use></svg></a>
+<script src="assets/mii.js"></script>
+</body>
+</html>
