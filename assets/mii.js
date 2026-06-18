@@ -125,6 +125,11 @@
     }).join('');
     wrap.innerHTML='<table class="quote-table"><thead><tr><th></th><th></th><th>Product</th><th>Quantity</th></tr></thead><tbody>'+rows+'</tbody></table>';
   }
+  // ---- Collapsible filter groups (mobile) ----
+  document.querySelectorAll('.filter-collapsible > h4').forEach(function(h){
+    h.addEventListener('click', function(){ h.parentElement.classList.toggle('open'); });
+  });
+
   // ---- Services tabbed detail ----
   document.querySelectorAll('.svc-tab').forEach(function(t){
     t.addEventListener('click', function(){
